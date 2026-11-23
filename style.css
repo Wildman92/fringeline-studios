@@ -364,3 +364,41 @@ html, body { max-width: 100%; overflow-x: hidden; }
   .hero, .hero-flagship { padding: 56px 0 52px; }
   .cta-row { justify-content: center; }
 }
+
+/* Stacked Mobile Cards for .compare Tables */
+@media (max-width: 640px) {
+  .compare, .compare tbody, .compare tr, .compare td {
+    display: block;
+    width: 100%;
+  }
+  .compare thead { display: none; }
+  .compare tr {
+    border-bottom: 1px solid var(--border);
+    padding: 14px 16px;
+  }
+  .compare tr:last-child { border-bottom: none; }
+  .compare td {
+    padding: 5px 0;
+    border: none;
+    font-size: 0.92rem;
+    word-break: break-word;
+  }
+  .compare td:first-child {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    color: var(--crimson-bright);
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .compare td.bad::before {
+    content: "Others: ";
+    font-weight: 600;
+    color: var(--text);
+  }
+  .compare td.good::before {
+    content: "Fringeline: ";
+    font-weight: 700;
+    color: var(--crimson-bright);
+  }
+}
