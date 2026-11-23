@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Deploy Project Inquiry — Fringeline Studios</title>
+  <link href="https://googleapis.com" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=4">
+  <meta name="description" content="Submit your target market and service scope in 60 seconds for a concrete web build or local visibility plan within 24 hours.">
+  <link rel="canonical" href="https://fringeline-studios.netlify.app/deploy.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Fringeline Studios">
+  <meta property="og:title" content="Start Your Project Inquiry — Fringeline Studios">
+  <meta property="og:description" content="Submit your target market and service scope in 60 seconds for a concrete web build or local visibility plan within 24 hours.">
+  <meta property="og:url" content="https://fringeline-studios.netlify.app/deploy.html">
+  <meta property="og:image" content="https://fringeline-studios.netlify.app/hero-logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Start Your Project Inquiry — Fringeline Studios">
+  <meta name="twitter:description" content="Submit your target market and service scope in 60 seconds for a concrete web build or local visibility plan within 24 hours.">
+  <meta name="twitter:image" content="https://fringeline-studios.netlify.app/hero-logo.png">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="logo-txt" href="index.html">FRINGELINE <span>STUDIOS</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="systems.html">Systems</a>
+        <a href="managed.html">Managed Growth</a>
+        <a href="deploy.html" class="btn" style="padding:10px 18px">Deploy</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <div class="wrap">
+      <span class="tag">Step 01 // Scope &amp; Market Intake</span>
+      <h1 class="page-title">Initiate Your Project Deployment</h1>
+      <p style="color:var(--muted);max-width:650px;font-size:1.05rem">Zero sales fluff. Drop your market, service focus, and timeline below—your scope routes directly to our engineering inbox for a 24-hour turnaround plan.</p>
+    </div>
+  </div>
+
+  <section style="border-bottom:none">
+    <div class="wrap">
+      <div class="intake-box">
+        <form class="form-grid" action="https://formsubmit.coaaronmymcfadden@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Fringeline Studios Project Inquiry">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none">
+
+          <div>
+            <label for="track">Select Engagement Track</label>
+            <select id="track" name="Track">
+              <option value="Track 01 — Custom Acquisition Build (From $1,250)">Track 01 — Custom Acquisition Build (From $1,250)</option>
+              <option value="Track 02 — Managed Local Visibility (From $450/mo)">Track 02 — Managed Local Visibility (From $450/mo)</option>
+              <option value="Full Stack — Custom Build + Managed Growth">Full Stack — Custom Build + Managed Growth</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="biz">Your Name &amp; Business</label>
+            <input type="text" id="biz" name="Name_Business" placeholder="e.g., Jorey — Valley Custom Builders" required>
+          </div>
+
+          <div>
+            <label for="contact">Direct Phone or Email</label>
+            <input type="text" id="contact" name="Contact" placeholder="(541) 555-0100 or you@domain.com" required>
+          </div>
+
+          <div>
+            <label for="notes">Target Market, Core Service &amp; Timeline</label>
+            <textarea id="notes" name="Notes" rows="4" placeholder="Which cities do you serve, what is your highest-margin service, and how fast do you want to launch?" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Deploy Project Inquiry &rarr;</button>
+          <p style="font-size:0.84rem;color:var(--muted);text-align:center">Direct routing to engineering &bull; 100% confidential &bull; Response within 24 hours</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <div>&copy; 2026 Fringeline Studios &mdash; Finding Misplaced Value at the Edge.</div>
+      <div>Pacific Northwest &amp; Remote</div>
+    </div>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const t = params.get("track");
+    const sel = document.getElementById("track");
+    if (t === "build") sel.selectedIndex = 0;
+    if (t === "managed") sel.selectedIndex = 1;
+  </script>
+</body>
+</html>

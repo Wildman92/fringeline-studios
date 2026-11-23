@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fringeline Studios — Digital Architecture &amp; Local Acquisition Engines</title>
+  <link href="https://googleapis.com" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=4">
+  <meta name="description" content="Sub-2.0s custom web architecture and local search acquisition systems engineered to turn overlooked local markets into predictable inbound revenue.">
+  <link rel="canonical" href="https://fringeline-studios.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Fringeline Studios">
+  <meta property="og:title" content="Fringeline Studios — Digital Architecture & Local Acquisition Engines">
+  <meta property="og:description" content="Sub-2.0s custom web architecture and local search acquisition systems engineered to turn overlooked local markets into predictable inbound revenue.">
+  <meta property="og:url" content="https://fringeline-studios.netlify.app/">
+  <meta property="og:image" content="https://fringeline-studios.netlify.app/hero-logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fringeline Studios — Digital Architecture & Local Acquisition Engines">
+  <meta name="twitter:description" content="Sub-2.0s custom web architecture and local search acquisition systems engineered to turn overlooked local markets into predictable inbound revenue.">
+  <meta name="twitter:image" content="https://fringeline-studios.netlify.app/hero-logo.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Fringeline Studios",
+    "url": "https://fringeline-studios.netlify.app/",
+    "logo": "https://fringeline-studios.netlify.app/hero-logo.png",
+    "image": "https://fringeline-studios.netlify.app/hero-logo.png",
+    "slogan": "Finding Misplaced Value at the Edge.",
+    "description": "High-velocity custom web architecture and local search acquisition systems for Pacific Northwest and remote service businesses.",
+    "areaServed": ["Oregon", "Willamette Valley", "Oregon Coast", "Pacific Northwest"],
+    "priceRange": "$$"
+  }
+  </script>
+  <style>
+    .faq-list { display: grid; gap: 14px; max-width: 860px; }
+    .faq-item { background: var(--surface, #0f1014); border: 1px solid var(--border, #232631); border-radius: 8px; padding: 0; transition: border-color 0.2s ease; }
+    .faq-item[open] { border-color: var(--crimson, #dc2631); }
+    .faq-item summary { list-style: none; cursor: pointer; padding: 18px 22px; font-weight: 600; font-size: 1.05rem; color: var(--text, #f4f4f6); display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: "+"; color: var(--crimson, #dc2631); font-size: 1.35rem; font-weight: 700; line-height: 1; transition: transform 0.2s ease; }
+    .faq-item[open] summary::after { content: "−"; }
+    .faq-item p { padding: 0 22px 20px; margin: 0; color: var(--muted, #9ca3af); line-height: 1.65; font-size: 0.97rem; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 14px; }
+  </style>
+  <style>
+    .arch-tabs { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
+    .arch-tab { background: var(--surface, #0f1014); border: 1px solid var(--border, #232631); color: var(--muted, #9ca3af); padding: 12px 18px; border-radius: 6px; font-weight: 600; font-size: 0.92rem; cursor: pointer; transition: all 0.2s ease; }
+    .arch-tab:hover { border-color: rgba(220,38,38,0.5); color: var(--text, #f4f4f6); }
+    .arch-tab.active { background: rgba(220,38,38,0.12); border-color: var(--crimson, #dc2631); color: var(--text, #f4f4f6); }
+    .arch-panel { display: none; background: var(--surface, #0f1014); border: 1px solid var(--border, #232631); border-left: 3px solid var(--crimson, #dc2631); border-radius: 8px; padding: 26px 28px; }
+    .arch-panel.active { display: grid; grid-template-columns: 1.4fr 1fr; gap: 28px; align-items: center; }
+    @media (max-width: 768px) { .arch-panel.active { grid-template-columns: 1fr; } }
+    .arch-specs { background: rgba(7,7,9,0.65); border: 1px solid var(--border, #232631); border-radius: 6px; padding: 16px 18px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.85rem; color: var(--text, #f4f4f6); }
+    .arch-specs div { padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.06); display: flex; justify-content: space-between; gap: 12px; }
+    .arch-specs div:last-child { border-bottom: none; }
+    .arch-specs span:first-child { color: var(--muted, #9ca3af); }
+    .arch-specs span:last-child { color: #ef4444; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="logo-txt" href="index.html" class="active">FRINGELINE <span>STUDIOS</span></a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="systems.html">Systems</a>
+        <a href="managed.html">Managed Growth</a>
+        <a href="deploy.html" class="btn" style="padding:10px 18px">Deploy</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="hero-flagship" style="text-align:center;padding:86px 0 92px">
+    <div class="wrap" style="display:flex;flex-direction:column;align-items:center">
+      <img src="hero-logo.png" alt="Fringeline Studios" style="width:100%;max-width:820px;height:auto;margin:0 auto 10px;display:block">
+      <div class="motto-engraved" style="font-family:'Great Vibes',cursive;font-style:normal;font-weight:400;font-size:clamp(2.45rem,4.8vw,3.6rem);letter-spacing:0.02em;line-height:1.18;margin:4px 0 24px">Finding Misplaced Value at the Edge.</div>
+      <h1>Turn Overlooked Local Markets Into Predictable Inbound Revenue.</h1>
+      <p class="hero-sub">High-velocity web infrastructure and local lead engines engineered for speed, organic dominance, and real revenue—without bloated agency retainers.</p>
+      <div class="cta-row" style="justify-content:center">
+        <a href="deploy.html" class="btn">Start A Project &rarr;</a>
+        <a href="systems.html" class="btn btn-ghost">Two-Track Offers</a>
+      </div>
+      <p class="trust-note">Direct engineer access &bull; Deployed in days, not months &bull; 100% client asset ownership</p>
+    </div>
+  </div>
+
+  <div class="metrics">
+    <div class="wrap" style="display:contents">
+      <div class="metric"><strong>5.42M+</strong><span>Organic Reach Engineered</span></div>
+      <div class="metric"><strong>&lt; 2.0s</strong><span>Mobile Load Benchmark</span></div>
+      <div class="metric"><strong>DAYS</strong><span>Concept-to-Live Velocity</span></div>
+      <div class="metric"><strong>100%</strong><span>Client Code &amp; Domain Ownership</span></div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="tag">Two-Track Operating Architecture</span>
+        <h2>Choose Direct Ownership or Ongoing Search Dominance</h2>
+        <p>Every engagement is built around measurable lead flow—no bloated retainers, no page-builder drag, and zero hostage contracts.</p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card featured">
+          <div>
+            <span class="tag">Track 01 // Turnkey Infrastructure</span>
+            <h3>Custom Acquisition Build</h3>
+            <div class="price-line">From $1,250 <small>/ one-time build</small></div>
+            <p>A bespoke, conversion-engineered multi-page web platform built from clean code and handed over to you 100% debt-free.</p>
+            <ul class="list">
+              <li>Custom visual identity, dark/high-contrast UI &amp; CRO copywriting</li>
+              <li>Mobile-first lead capture routed straight to your phone &amp; inbox</li>
+              <li>Local schema markup, technical SEO &amp; sub-2.0s speed tuning</li>
+              <li>Full source code, domain &amp; hosting ownership from day one</li>
+            </ul>
+          </div>
+          <div class="cta-row">
+            <a href="deploy.html?track=build" class="btn">Deploy Custom Build</a>
+            <a href="systems.html" class="btn btn-ghost">Full Specs</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <span class="tag">Track 02 // Compounding Inbound</span>
+            <h3>Managed Local Visibility Engine</h3>
+            <div class="price-line">From $450 <small>/ month &bull; no lock-in</small></div>
+            <p>Continuous local search execution that pushes your business into the Google Map Pack and converts clicks into booked jobs.</p>
+            <ul class="list">
+              <li>Google Business Profile authority, citations &amp; review velocity</li>
+              <li>City-specific landing pages targeting high-intent buyer searches</li>
+              <li>Conversion rate tuning, call/form telemetry &amp; monthly reporting</li>
+              <li>Cancel anytime—you keep every page and asset we build</li>
+            </ul>
+          </div>
+          <div class="cta-row">
+            <a href="deploy.html?track=managed" class="btn">Launch Managed Growth</a>
+            <a href="managed.html" class="btn btn-ghost">View Scope</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="architecture">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="tag">System Architecture</span>
+        <h2>How the 3-Layer Acquisition Engine Works</h2>
+        <p>Inspect each layer of the stack we deploy to turn local search traffic into booked revenue.</p>
+      </div>
+
+      <div class="arch-tabs" role="tablist">
+        <button class="arch-tab active" onclick="showArch(0, this)" type="button">01 // Static Edge Infrastructure</button>
+        <button class="arch-tab" onclick="showArch(1, this)" type="button">02 // Direct-Response CRO Funnel</button>
+        <button class="arch-tab" onclick="showArch(2, this)" type="button">03 // Local Map Pack Engine</button>
+      </div>
+
+      <div class="arch-panel active" id="arch-0">
+        <div>
+          <span class="tag">Layer 01 &bull; Speed &amp; Ownership</span>
+          <h3 style="font-family:'Cinzel',serif;font-size:1.45rem;margin:8px 0 12px">Zero-Bloat Static Edge Delivery</h3>
+          <p style="color:var(--muted);margin-bottom:14px">We strip out heavy WordPress plugins, slow database queries, and third-party page builders. Every page ships as clean, hand-tuned static assets served from global edge nodes.</p>
+          <ul class="list">
+            <li>Sub-2.0s mobile load times that keep impatient buyers on-page</li>
+            <li>Structured JSON-LD LocalBusiness schema &amp; clean semantic HTML</li>
+            <li>Zero monthly software lock-in—100% portable source code</li>
+          </ul>
+        </div>
+        <div class="arch-specs">
+          <div><span>Mobile Load Target</span><span>&lt; 2.0 Seconds</span></div>
+          <div><span>CMS / Plugin Bloat</span><span>0 KB (Pure Static)</span></div>
+          <div><span>SSL &amp; Edge CDN</span><span>Included</span></div>
+          <div><span>Code Ownership</span><span>100% Client-Owned</span></div>
+        </div>
+      </div>
+
+      <div class="arch-panel" id="arch-1">
+        <div>
+          <span class="tag">Layer 02 &bull; Buyer Psychology</span>
+          <h3 style="font-family:'Cinzel',serif;font-size:1.45rem;margin:8px 0 12px">Friction-Free Conversion Architecture</h3>
+          <p style="color:var(--muted);margin-bottom:14px">Traffic without conversion is wasted spend. Every section is sequenced to answer buyer skepticism, establish local authority, and route inquiries straight to your phone and inbox.</p>
+          <ul class="list">
+            <li>Outcome-driven headlines &amp; objection-handling comparison tables</li>
+            <li>60-second mobile intake forms with instant email/SMS routing</li>
+            <li>Clear service tiers that pre-qualify serious buyers before you talk</li>
+          </ul>
+        </div>
+        <div class="arch-specs">
+          <div><span>Intake Friction</span><span>&lt; 60 Seconds</span></div>
+          <div><span>Lead Routing</span><span>Direct Inbox / Phone</span></div>
+          <div><span>Copy Framework</span><span>Direct-Response CRO</span></div>
+          <div><span>Call-to-Action Flow</span><span>Above &amp; Below Fold</span></div>
+        </div>
+      </div>
+
+      <div class="arch-panel" id="arch-2">
+        <div>
+          <span class="tag">Layer 03 &bull; Compounding Demand</span>
+          <h3 style="font-family:'Cinzel',serif;font-size:1.45rem;margin:8px 0 12px">Regional Search &amp; Map Pack Dominance</h3>
+          <p style="color:var(--muted);margin-bottom:14px">Once your core platform is live, we expand your footprint across surrounding cities and high-intent buyer searches so inbound leads compound month over month.</p>
+          <ul class="list">
+            <li>Google Business Profile optimization, citations &amp; review velocity</li>
+            <li>Dedicated service + city landing pages built for buyer intent</li>
+            <li>Month-to-month execution—keep every page we build if you cancel</li>
+          </ul>
+        </div>
+        <div class="arch-specs">
+          <div><span>Target Placement</span><span>Google Top 3 Map Pack</span></div>
+          <div><span>Geo Expansion</span><span>City &amp; Service Pages</span></div>
+          <div><span>Contract Lock-In</span><span>None (Month-to-Month)</span></div>
+          <div><span>Asset Retention</span><span>100% Yours Forever</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function showArch(idx, btn) {
+      document.querySelectorAll('.arch-tab').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.arch-panel').forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('arch-' + idx).classList.add('active');
+    }
+  </script>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="tag">Why Fringeline Wins</span>
+        <h2>Built for Buyers, Not Agency Overhead</h2>
+        <p>Traditional agencies charge $5,000+ for slow WordPress themes you never truly control. DIY builders stall on mobile and fail to rank.</p>
+      </div>
+
+      <table class="compare">
+        <thead>
+          <tr>
+            <th>Capability</th>
+            <th>Templates / Bloated Agencies</th>
+            <th>Fringeline Studios</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mobile Load Speed</td>
+            <td class="bad">4–8 seconds (heavy scripts &amp; plugins)</td>
+            <td class="good">&lt; 2.0 seconds static edge delivery</td>
+          </tr>
+          <tr>
+            <td>Conversion Copy &amp; Flow</td>
+            <td class="bad">Generic filler &amp; buried contact links</td>
+            <td class="good">Direct-response CRO funnel on every page</td>
+          </tr>
+          <tr>
+            <td>Deployment Timeline</td>
+            <td class="bad">6–12 weeks of meetings</td>
+            <td class="good">Live production launch in days</td>
+          </tr>
+          <tr>
+            <td>Asset &amp; Code Ownership</td>
+            <td class="bad">Proprietary lock-in or monthly hostage fees</td>
+            <td class="good">100% yours on day one</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="tag">Buyer Clarity</span>
+        <h2>Straight Answers Before You Commit</h2>
+        <p>Zero agency mystery, hidden lock-ins, or surprise retainers.</p>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>What do I actually own when a Custom Acquisition Build is finished?</summary>
+          <p>You own 100% of the production code, visual assets, copywriting, domain registration, and edge hosting account from day one. There are zero proprietary lock-ins or hostage fees—you can host or modify your site anywhere at any time.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>How fast does a build go from project scope to live production?</summary>
+          <p>Most Custom Acquisition Builds deploy to live production in days rather than months. Because we engineer clean static architecture without bloated WordPress plugins or agency committee delays, your site goes live as soon as your core service and market scope are finalized.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Do I have to sign up for the $450/mo Managed Visibility Engine?</summary>
+          <p>No. Track 01 (Custom Acquisition Build) is a standalone one-time build that works independently out of the box. Track 02 (Managed Local Visibility Engine) is completely optional, month-to-month, and cancelable anytime while keeping every page we build for you.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>What happens right after I submit my market and service details?</summary>
+          <p>Your inquiry routes directly to our lead engineer. Within 24 hours, you receive a concrete build scope, recommended page architecture, and exact pricing—no pushy sales scripts or wasted discovery calls.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section style="border-bottom:none">
+    <div class="wrap">
+      <div class="cta-banner">
+        <div>
+          <span class="tag">Ready to Capture Your Market?</span>
+          <h2 style="font-family:'Cinzel',serif;font-size:1.75rem;margin-bottom:8px">Send Your Market &amp; Service Details in 60 Seconds.</h2>
+          <p style="color:var(--muted);max-width:560px">No pushy discovery calls. Tell us what you sell and where you operate—we will reply within 24 hours with a concrete build plan.</p>
+        </div>
+        <a href="deploy.html" class="btn">Initiate Project Scope &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <div>&copy; 2026 Fringeline Studios &mdash; Finding Misplaced Value at the Edge.</div>
+      <div>Pacific Northwest &amp; Remote</div>
+    </div>
+  </footer>
+  <div class="mobile-sticky-cta">
+    <span>Custom Builds &bull; Live in Days</span>
+    <a href="deploy.html" class="btn">Start A Project &rarr;</a>
+  </div>
+</body>
+</html>
