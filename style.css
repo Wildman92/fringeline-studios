@@ -351,3 +351,16 @@ header {
 .hero-flagship {
   background: radial-gradient(circle at 50% 24%, rgba(220, 38, 38, 0.14) 0%, rgba(7, 7, 9, 0) 62%);
 }
+
+/* Mobile Overflow & Header Fix */
+html, body { max-width: 100%; overflow-x: hidden; }
+.compare { display: block; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px; }
+  .nav { flex-wrap: wrap; height: auto; padding: 12px 0; gap: 10px; justify-content: center; }
+  .logo-txt { width: 100%; justify-content: center; font-size: 1.05rem; }
+  .nav-links { width: 100%; justify-content: center; flex-wrap: wrap; gap: 10px 14px; font-size: 0.82rem; }
+  .nav-links .btn { padding: 8px 14px; font-size: 0.82rem; }
+  .hero, .hero-flagship { padding: 56px 0 52px; }
+  .cta-row { justify-content: center; }
+}
